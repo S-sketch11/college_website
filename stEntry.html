@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Entry Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Entry Form</h1>
+    <form action="/action.php">
+        <big>Name</big><br>
+        <input type="text" placeholder="First Name"><br>
+        <input type="text" placeholder="Last Name"><br><br>
+
+        <big>Roll No.</big><br>
+        <input type="number" placeholder="Roll No."><br><br>
+
+        <big>Email</big><br>
+        <input type="email" placeholder="Email"><br><br>
+
+        <big>Phone</big><br>
+        <input type="tel" placeholder="Mobile No."><br><br>
+
+        <big>Gender</big><br>
+        <label for="male">
+            <input type="radio" value="Male" name="gender" id="male"> Male
+        </label>
+        <label for="female">
+            <input type="radio" value="Female" name="gender" id="female"> Female
+        </label><br><br>
+
+        <big>Date of Birth</big><br>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        <big>Department</big><br>
+        <label for="cs">
+            <input type="radio" value="CS" name="department" id="cs"> CS
+        </label>
+        <label for="ece">
+            <input type="radio" value="ECE" name="department" id="ece"> ECE
+        </label>
+        <label for="electrical">
+            <input type="radio" value="Electrical" name="department" id="electrical"> Electrical
+        </label>
+        <label for="tt">
+            <input type="radio" value="TT" name="department" id="tt"> TT
+        </label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
